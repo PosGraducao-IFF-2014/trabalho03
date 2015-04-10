@@ -10,4 +10,4 @@ dataPagamento = raw_input('dataPagamento: ')
 status = raw_input('status: ')
 pagar ={'codigoApagar':codigoApagar,'codigoCompra':codigoCompra,'dataVencimento':dataVencimento,'dataPagamento':dataPagamento,'status':status}
 if servico.ContasArecebe(pagar):
-    print 'Cadastrado com sucesso'
+    print 'Cadastrado com sucesso.'
